@@ -1,0 +1,69 @@
+body{
+    background-image: 
+    url("https://tse4.mm.bing.net/th?id=OIP.YAuJWq_AXueL8HLCALws_QHaE8&pid=Api&P=0&h=180");
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:var(white);
+}
+
+header a{
+    text-decoration: none;
+    color:gold;
+    min-width:120px;
+}
+header{
+    display: flex;
+    flex-wrap:wrap;
+    padding: 1em;
+}
+#logo{
+    flex: 3;
+    font-size: 1.25em;
+    min-width:260px;
+}
+nav{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color:green;
+}
+header h2 i,nav a i{
+    margin-right: .5em;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tagline1{
+    color: red;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tagline2{
+    color:darkgoldenrod;
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding:.7em;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+}
+.callus{
+    color:chocolate;
+}

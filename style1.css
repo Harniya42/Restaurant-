@@ -1,0 +1,44 @@
+body{
+    background-image:
+    url("https://glutenfreeandmore.com/wp-content/uploads/2024/04/Open-Face-Breakfast-Sandwishes-with-Sauteed-Onions-Peppers-Olga-Miller-Reno-Tahoe-food-photographer-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.table{
+    text-decoration-color: white;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    color:red;
+}
+
+#menuheading{
+    font-size: 2.em;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.menu th{
+    color:green;
+    font-size:1.8em;
+}
+table{
+    width:100%;
+    padding:1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu td:nth-child(1){
+    flex:1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+

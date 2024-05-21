@@ -1,0 +1,43 @@
+body{    
+    background-image:
+    url("https://tse1.mm.bing.net/th?id=OIP.SNLM97aGtqjIPMO-Y9LPXgAAAA&pid=Api&P=0&h=180");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.non-veg{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    background:linear-gradient(to right rgb(100,100,100),rgb(53,52,52)) ;
+    color:white;
+}
+
+#menuheading{
+    background:linear-gradient(to right rgb(100,100,100),rgb(53,52,52));
+    font-size:2.sem;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.non-veg th{
+    color:green;
+    font-size:1.8em;
+}
+table{
+    width:100%;
+    padding:1em;
+}
+.non-veg tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.non-veg td:nth-child(1){
+    flex:1;
+    justify-self: left;
+}
+.non-veg td:nth-child(2){
+    justify-self: right;
+}
+

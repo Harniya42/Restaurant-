@@ -1,0 +1,83 @@
+body{
+    background-image:
+    url("https://tse4.mm.bing.net/th?id=OIP.rUbYTO1BXzFnM7Iu-sfBKQHaGA&pid=Api&P=0&h=180");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.flavour{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    background:linear-gradient(to right rgb(100,100,100),rgb(53,52,52)) ;
+    color:white;
+}
+    .juice{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    color:white;
+}
+
+#menuheading{
+    font-size:2.sem;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.juice th{
+    color:green;
+    font-size:1.8em;
+}
+table{
+    width:100%;
+    padding:1em;
+}
+.juice tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.juice td:nth-child(1){
+    flex:1;
+    justify-self: left;
+}
+
+.juice td:nth-child(2){
+    justify-self: right;
+}
+.juice{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    color: white;
+}
+.fruits{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    color:white;
+}
+.fruits th{
+    color:green;
+    font-size:1.8em;
+}
+table{
+    width:100%;
+    padding:1em;
+}
+.fruits tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.fruits td:nth-child(1){
+    flex:1;
+    justify-self: left;
+}
+
+.fruits td:nth-child(2){
+    justify-self: right;
+}
+.fruits{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    color:white;
+}
